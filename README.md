@@ -5,7 +5,7 @@
   bash certexpire <servername> <serverport><br>
   
   <strong> Example:</strong>
-  bash certexpire amazon.com
+  bash certexpire amazon.com<br>
   bash certexpire appserver.mydomain.com 9234
   
 </p
