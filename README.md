@@ -1,7 +1,7 @@
 # certexpire
 
 <p>
-  <strong>How to use:</strong<br>
+  <strong>How to use:</strong><br>
   bash certexpire <servername><br>
   bash certexpire <servername> <serverport><br>
   
