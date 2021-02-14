@@ -27,24 +27,17 @@ function certexpire(){
 
 }
 
-
 function check_by_file(){
    if [ -z $FILE ];then
       echo "O campo arquivo nao pode ser vazio"
    else
-
       while read LINE
       do
          HOST=$(echo $LINE | awk -F"," '{print $1}')
          PORTA=$(echo $LINE | awk -F"," '{print $2}')
-         #echo $HOST
-
          certexpire $HOST $PORTA
-
       done < $FILE
-
    fi
-
 }
 
 function option(){
@@ -62,6 +55,5 @@ function option(){
          echo "Opcao invalida"
       ;;
    esac
-
 }
 option $*
