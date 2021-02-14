@@ -1,0 +1,5 @@
+google.com
+amazon.com
+microsoft.com,443
+lpi.org,444
+,555
